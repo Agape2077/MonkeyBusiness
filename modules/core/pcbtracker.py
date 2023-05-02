@@ -14,7 +14,7 @@ async def pcbtracker_alive(request: Request):
     response = E.response(
         E.pcbtracker(
             expire=1200,
-            ecenable=not config.maintenance_mode,
+            ecenable=config.enablePaseli,
             eclimit=0,
             limit=0,
         )

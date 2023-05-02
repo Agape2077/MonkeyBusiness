@@ -18,7 +18,7 @@ ip = get_ip()
 port = 8000
 services_prefix = "/core"
 verbose_log = True
-
+enablePaseli = True
 arcade = "Monkey Business"
 paseli = 5730
 maintenance_mode = False
